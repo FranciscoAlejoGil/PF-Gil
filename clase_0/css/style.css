@@ -1,0 +1,174 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #780000;
+    color: #E6EFE9;
+}
+.bodyfull{
+    background-color: #780000;
+    color: #E6EFE9;
+    
+}
+/* probando fonts
+@font-face {
+    font-family: "monaco";
+    src: url(../font/monaco.ttf);
+}
+@font-face {
+    font-family: "gitaluevo";
+    src: url(../font/Gitaluevo.ttf);
+}
+@font-face {
+    font-family: "moderna";
+    src: url(../font/MODERNA_.TTF);
+}
+*/
+.grid{
+
+}
+form{
+    width: 35%;
+}
+.links{
+    color: #E6EFE9;
+}
+.ticket{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.comentario{
+    width: 260px;
+    height: 80px;
+    margin-top: 2%;
+}
+.shawpadre, .godpadre, .batpadre{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.shawshank, .padrino, .batman{
+    width: 180px;
+    height: 270px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.shawtext, .godtext, .battext{
+    width: 50%;
+    text-align: justify;
+    display: flex;
+}
+
+.indexshaw, .indexgod, .indexbat, .indexgodII, .index12{
+    width: 200px;
+    height: 290px;
+    border-radius: 15px;
+    margin-right: 45px;
+}
+.ulmenuarriba, .ulmenuabajo{
+    list-style-type: none;
+    text-align: center;
+}
+.ilmenu{
+    padding: 2px 7px 2px 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    background-color: #FDF0D5;
+    color: black;
+}
+.ilmenu:hover{
+    background-color: #FDF0D5;
+
+}
+.indexalpacino, .indexjake, .indexbrad, .indexchris, .indexcilian{
+    width: 200px;
+    height: 290px;
+    border-radius: 170px;
+    margin-right: 45px;
+}
+.gridal,.gridjake, .gridbrad, .gridchris{
+    width: 79%;
+    border-width: 2px;
+    border-top-color: #7FEFBD;
+    border-radius: 67px;
+    background-color: #C1121F;
+    margin-bottom: 45px;
+}
+.gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover{
+    color: black;
+    background-color: #FDF0D5;
+}
+
+.text_al, .text_jake , .text_brad, .text_chris{
+    width: 47%;
+    text-align: justify;
+    margin-left: 120px;
+    margin-bottom: 18px;
+}
+
+.alpacinoactores, .jakeactores, .bradactores, .chrisactores{
+    width: 200px;
+    height: 290px;
+    border-radius: 170px;
+    margin-right: 45px;
+    margin-left: 120px;
+}
+.jakeactores, .chrisactores{
+    margin-left: 160px;
+}
+
+.titulo_al, .titulo_jake, .titulo_brad, .titulo_chris{
+    margin-left: 170px;
+}
+.grid_actores{
+    border: #7FEFBD;
+    border-width: 23px;
+    display: grid;
+    grid-template-columns: repeat(2, 630px);
+}
+.menu_nazi{
+    background-color: #780000 !important; 
+    background-color: transparent;
+}
+.principal{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 64px;
+    background-color: #780000;
+    color: #E6EFE9;
+}
+.bg-body-perso{
+    background-color: #780000;
+}
+.navbar-menu1{
+    text-decoration: none;
+    color: #E6EFE9;
+    font-size: 26px;
+}
+.linksnos{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.linksnos:hover{
+    border: black solid 2px;
+}
+.offcanvas-title_perso{
+    margin-top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.navbar-toggler_perso{
+    background-color: #E6EFE9;
+    border:#E6EFE9 solid 1px;
+    border-radius: 9px;
+    margin-right: 23px;
+}
