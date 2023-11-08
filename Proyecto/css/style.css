@@ -1,12 +1,35 @@
 html{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #780000;
+    font-family: Roboto-Light ;
+    background-color: #03045e !important;
+    color: #E6EFE9;
+}
+.body_index{
+    background-color: #03045e;
+}
+h1, h2, h3{
+    font-family: boldfont;
     color: #E6EFE9;
 }
 .bodyfull{
-    background-color: #780000;
+    background-color: #03045e;
     color: #E6EFE9;
     
+}
+@font-face {
+    font-family: "Bebas-Regular";
+    src: url(../font/Bebas-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "boldfont";
+    src: url(../font/boldfont.ttf);
+}
+@font-face {
+    font-family: "fFinish";
+    src: url(../font/fFinish.ttf);
 }
 /* probando fonts
 @font-face {
@@ -22,9 +45,6 @@ html{
     src: url(../font/MODERNA_.TTF);
 }
 */
-.grid{
-
-}
 form{
     width: 35%;
 }
@@ -58,12 +78,11 @@ form{
     text-align: justify;
     display: flex;
 }
-
 .indexshaw, .indexgod, .indexbat, .indexgodII, .index12{
     width: 200px;
     height: 290px;
     border-radius: 15px;
-    margin-right: 45px;
+    margin-right: 40px;
 }
 .ulmenuarriba, .ulmenuabajo{
     list-style-type: none;
@@ -86,7 +105,11 @@ form{
 }
 .ilmenu:hover{
     background-color: #FDF0D5;
-
+}
+.actores_index, .top_index{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 .indexalpacino, .indexjake, .indexbrad, .indexchris, .indexcilian{
     width: 200px;
@@ -97,9 +120,9 @@ form{
 .gridal,.gridjake, .gridbrad, .gridchris{
     width: 79%;
     border-width: 2px;
-    border-top-color: #7FEFBD;
+    border-top-color: #ff9f1c;
     border-radius: 67px;
-    background-color: #C1121F;
+    background-color: #ec0868;
     margin-bottom: 45px;
 }
 .gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover{
@@ -127,6 +150,7 @@ form{
 
 .titulo_al, .titulo_jake, .titulo_brad, .titulo_chris{
     margin-left: 170px;
+    font-family: Bebas-Regular;
 }
 .grid_actores{
     border: #7FEFBD;
@@ -135,17 +159,16 @@ form{
     grid-template-columns: repeat(2, 630px);
 }
 .menu_nazi{
-    background-color: #780000 !important; 
+    background-color:#03045e;
     background-color: transparent;
 }
 .principal{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 64px;
-    background-color: #780000;
+    background-color: #03045e;
     color: #E6EFE9;
 }
 .bg-body-perso{
-    background-color: #780000;
+    background-color: #03045e;
 }
 .navbar-menu1{
     text-decoration: none;
@@ -159,7 +182,7 @@ form{
     font-size: 18px;
 }
 .linksnos:hover{
-    border: black solid 2px;
+    font-size: 22px;
 }
 .offcanvas-title_perso{
     margin-top: 11px;
@@ -168,7 +191,16 @@ form{
 }
 .navbar-toggler_perso{
     background-color: #E6EFE9;
-    border:#E6EFE9 solid 1px;
+    border: #E6EFE9 solid 2px;
     border-radius: 9px;
-    margin-right: 23px;
+    margin-right: 28px;
+}
+.text_actores, .text_index, .text_top{
+    font-size: 18px;
+}
+.top_index
+
+a{
+    dfsad
+    ;
 }

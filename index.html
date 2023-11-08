@@ -4,35 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./clase_0/img/flaticon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./clase_0/css/bootstrap.css">
     <link rel="stylesheet" href="./clase_0/css/style.css"> 
     <title>Cine</title>
 </head>
-<body>
-    <header class="menu">
-        <nav>
-            <ul class="ulmenuarriba">
-                <li class="ilmenu"><a class="links" href="./clase_0/top_100_peliculas.html">Top 100 peliculas</a></li>
-                <li class="ilmenu"><a class="links" href="./clase_0/actores.html">Actores</a></li>
-                <li class="ilmenu"><a class="links" href="./clase_0/nosotros.html">Nosotros</a></li>
-                <li class="ilmenu"><a class="links" href="./clase_0/contacto.html#contacto">Contacto</a></li>
-            </ul>
+<body class="body_index">
+    <header class="menu_nazi_index">
+        <nav class="navbar bg-body-perso fixed-top-">
+            <div class="container-fluid">
+                <section class="principal">
+                    <img src="./clase_0/img/logo.png" alt="logo" class="ticket" title="Ticket">
+                    <h1 class="Cine">
+                        Cine
+                    </h1>
+                    <p class="text_index">
+                        Descubri lo ultimo y lo mejor del Cine
+                    </p>
+                    </section>
+            <button class="navbar-toggler_perso" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title_perso" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><a class="linksnos" href="./clase_0/top_100_peliculas.html">Top 100 peliculas</a></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <a class="linksnos" href="./clase_0/actores.html">Actores</a>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <a class="linksnos" href="./clase_0/nosotros.html">Nosotros</a>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <a class="linksnos" href="./clase_0/contacto.html">Contacto</a>
+                    </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
         </nav>
     </header>
-    <img src="./clase_0/img/logo.png" alt="logo" class="ticket" title="Ticket">    
-    <h1 class="Cine">
-        Cine
-    </h1>
-    <p>
-        Descubri lo ultimo y lo mejor del Cine
-    </p>
+    <section class="top_index">
     <h2>
         Top 100 peliculas
     </h2>
+    <div class="img_index">
     <img src="./clase_0/img/shawshank.png" alt="shawshank" title="The Shawshank Redemption" class="indexshaw">
     <img src="./clase_0/img/padrino.jpg" alt="padrino" title="The Godfather" class="indexgod">
     <img src="./clase_0/img/dark.jpg" alt="batman" title="The Dark Knight" class="indexbat">
     <img src="./clase_0/img/Elpadrino2.webp" alt="padrino2" title="The Godfather II" class="indexgodII" >
     <img src="./clase_0/img/12_Angry_Men_(1957_film_poster).jpg" alt="12_Angry_Men_" title="12 Angry Man" class="index12">
+    </div>
+    </section>
+    <section class="actores_index">
     <h2>
         Actores
     </h2>
@@ -41,6 +72,8 @@
     <img src="./clase_0/img/Brad_Pitt.jpg" alt="bradpitt" title="Brad Pitt" class="indexbrad">
     <img src="./clase_0/img/Christian_Bale.jpg" alt="chrisbale" title="Christian Bale" class="indexchris">
     <img src="./clase_0/img/Cillian_Murphy.webp" alt="cilian" title="Cilian Murphy" class="indexcilian">
+    </section>
+    <script src="./js/bootstrap.js"></script>
 </body>
 </html>
 
