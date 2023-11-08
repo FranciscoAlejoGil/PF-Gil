@@ -10,26 +10,50 @@
 </head>
 <body>
     <main class="grid">
-    <header>
-        <nav>
-            <ul class="ulmenuarriba">
-                <li class="ilmenu"><a class="links" href="./index.html">Inicio</a></li>
-                <li class="ilmenu"><a class="links" href="./top_100_peliculas.html">Top 100 peliculas</a></li>
-                <li class="ilmenu"><a class="links" href="./nosotros.html">Nosotros</a></li>
-                <li class="ilmenu"><a class="links" href="./contacto.html">Contacto</a></li>
-            </ul>
+        <header class="menu_perso">
+            <nav class="navbar bg-body-perso fixed-top-">
+                <div class="container-fluid">
+                    <section class="principal">
+                        <a href="./index.html">
+                            <img src="./img/logo.png" alt="logo" class="ticket" title="Ticket">
+                        </a>
+                        <h1>
+                            Actores
+                        </h1>
+                        <p>
+                            Conoce a los actores mas iconicos de la historia del cine.
+                        </p>
+                        </section>
+                <button class="navbar-toggler_perso" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title_perso" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><a class="linksnos" href="../index.html">Inicio</a></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><a class="linksnos" href="./top_100_peliculas.html">Peliculas</a></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <a class="linksnos" href="./nosotros.html">Nosotros</a>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <a class="linksnos" href="./contacto.html">Contacto</a>
+                        </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </div>
             </nav>
     </header>
-    <div class="header_actores">
-    <a href="./index.html">
-        <img src="./img/logo.png" alt="logo" class="ticket" title="Ticket">
-    </a>
-    <h1 class="actoresh1">
-        Actores</h1>
-    <p class="text_actores">
-        Aqui vamos a poder apreciar los mejores trabajos de cada actor.
-    </p>
-    </div>
     <div class="grid_actores">
     <div class="gridal">
         <h2 class="titulo_al">
@@ -89,6 +113,6 @@
         </nav>
     </footer>
     </main>
-    
 </body>
+<script src="./js/bootstrap.js"></script>
 </html>
