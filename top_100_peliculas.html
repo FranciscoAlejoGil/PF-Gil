@@ -4,29 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/flaticon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Top 100</title>
 </head>
 <body>
-    <main>
-    <header>
-        <nav>
-            <ul class="ulmenuarriba">
-                <li class="ilmenu"><a class="links" href="./index.html">Inicio</a></li>
-                <li class="ilmenu"><a class="links" href="./actores.html">Actores</a></li>
-                <li class="ilmenu"><a class="links" href="./nosotros.html">Nosotros</a></li>
-                <li class="ilmenu"><a class="links" href="./contacto.html">Contacto</a></li>
-            </ul>
-            </nav>
-    </header>
-    <a href="./index.html">
-        <img src="./img/logo.png" alt="logo" class="ticket" title="Ticket">
-    </a>
-    <h1 class="tituloTop">
-        Top 100 peliculas</h1>
-    <p class="text_top">
-        Aqui encontraras un copilado de las mejores 100 peliculas de todos los tiempos.
-    </p>
+    <main class="main_pelis">
+    <header class="menu_perso">
+        <nav class="navbar bg-body-perso fixed-top-">
+            <div class="container-fluid">
+                <section class="principal">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="logo" class="ticket" title="Ticket">
+                    </a>
+                    <h1>
+                        Peliculas Obligatorias
+                    </h1>
+                    <p>
+                        Peliculas para ver si o si antes de morir.
+                    </p>
+                    </section>
+            <button class="navbar-toggler_perso" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title_perso" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><a class="linksnos" href="../index.html">Inicio</a></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><a class="linksnos" href="./actores.html">Actores</a></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <a class="linksnos" href="./nosotros.html">Nosotros</a>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <a class="linksnos" href="./contacto.html">Contacto</a>
+                    </a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+</header>
         <h2 class="tituloshaw">
             1. The Shawshank Redemption 
         </h2>
@@ -72,4 +99,5 @@
         </footer>
     </main>
 </body>
+<script src="./js/bootstrap.js"></script>
 </html>

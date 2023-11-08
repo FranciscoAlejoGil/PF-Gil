@@ -61,6 +61,9 @@ form{
     height: 80px;
     margin-top: 2%;
 }
+.main_pelis{
+    background-color: #03045e;
+}
 .shawpadre, .godpadre, .batpadre{ 
     display: flex;
     flex-direction: row;
@@ -74,6 +77,7 @@ form{
     margin-bottom: 10px;
 }
 .shawtext, .godtext, .battext{
+    color: #E6EFE9;
     width: 50%;
     text-align: justify;
     display: flex;
