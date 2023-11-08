@@ -85,6 +85,7 @@ form{
     margin-right: 40px;
 }
 .ulmenuarriba, .ulmenuabajo{
+    background-color: #03045e;
     list-style-type: none;
     text-align: center;
 }
@@ -116,6 +117,9 @@ form{
     height: 290px;
     border-radius: 170px;
     margin-right: 45px;
+}
+.grid_actores{
+    padding-left: 70px;
 }
 .gridal,.gridjake, .gridbrad, .gridchris{
     width: 79%;
@@ -152,13 +156,20 @@ form{
     margin-left: 170px;
     font-family: Bebas-Regular;
 }
+.grid{
+    background-color: #03045e;
+}
+.header_actores{
+    background-color: #03045e;
+}
 .grid_actores{
+    background-color: #03045e;
     border: #7FEFBD;
     border-width: 23px;
     display: grid;
     grid-template-columns: repeat(2, 630px);
 }
-.menu_nazi{
+.menu_perso{
     background-color:#03045e;
     background-color: transparent;
 }
@@ -196,5 +207,6 @@ form{
     margin-right: 28px;
 }
 .text_actores, .text_index, .text_top{
+    color: #E6EFE9;
     font-size: 18px;
 }
