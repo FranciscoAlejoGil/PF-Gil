@@ -61,8 +61,15 @@ form{
     height: 80px;
     margin-top: 2%;
 }
+.datos{
+    background-color: #03045e;
+    color: #E6EFE9;
+}
 .main_pelis{
     background-color: #03045e;
+}
+.peliculas_titulos{
+    padding-left: 35px;
 }
 .shawpadre, .godpadre, .batpadre{ 
     display: flex;
