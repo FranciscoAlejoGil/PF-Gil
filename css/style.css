@@ -31,6 +31,21 @@ h1, h2, h3{
     font-family: "fFinish";
     src: url(../font/fFinish.ttf);
 }
+@media (max-width: 744px) {
+    .index12, .indexgodII, .indexcilian, .indexchris{
+        display: none;
+    }
+}
+@media (max-width: 1010px){
+    .indexshaw, .indexgod, .indexbat, .indexgodII{
+        padding-bottom: 23px;
+    }
+}
+@media (max-width: 687px){
+    .shawtext, .godtext, .battext{
+        display: none;
+    }
+}
 /* probando fonts
 @font-face {
     font-family: "monaco";
@@ -87,7 +102,6 @@ form{
     color: #E6EFE9;
     width: 50%;
     text-align: justify;
-    display: flex;
 }
 .indexshaw, .indexgod, .indexbat, .indexgodII, .index12{
     width: 200px;
@@ -130,6 +144,7 @@ form{
     margin-right: 45px;
 }
 .grid_actores{
+    color: #E6EFE9;
     padding-left: 70px;
 }
 .gridal,.gridjake, .gridbrad, .gridchris{
@@ -142,7 +157,7 @@ form{
 }
 .gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover{
     color: black;
-    background-color: #FDF0D5;
+    background-color: #177e89;
 }
 
 .text_al, .text_jake , .text_brad, .text_chris{
