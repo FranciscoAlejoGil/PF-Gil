@@ -42,7 +42,7 @@ h1, h2, h3{
     }
 }
 @media (max-width: 687px){
-    .shawtext, .godtext, .battext{
+    .shawtext, .godtext, .battext, .fighttext, .islatext{
         display: none;
     }
 }
@@ -86,24 +86,24 @@ form{
 .peliculas_titulos{
     padding-left: 35px;
 }
-.shawpadre, .godpadre, .batpadre{ 
+.shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.shawshank, .padrino, .batman{
+.shawshank, .padrino, .batman, .fightclub, .islasiniestra{
     width: 180px;
     height: 270px;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.shawtext, .godtext, .battext{
+.shawtext, .godtext, .battext, .fighttext, .islatext{
     color: #E6EFE9;
     width: 50%;
     text-align: justify;
 }
-.indexshaw, .indexgod, .indexbat, .indexgodII, .index12{
+.indexshaw, .indexgod, .indexbat, .indexseven, .indexinception{
     width: 200px;
     height: 290px;
     border-radius: 15px;
@@ -132,9 +132,14 @@ form{
 .ilmenu:hover{
     background-color: #FDF0D5;
 }
-.actores_index, .top_index{
+.pelis_index{
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.actores_index{
+    margin-top: 15px;
+    margin-left: 33px;
     margin-bottom: 15px;
 }
 .indexalpacino, .indexjake, .indexbrad, .indexchris, .indexcilian{
@@ -147,7 +152,7 @@ form{
     color: #E6EFE9;
     padding-left: 70px;
 }
-.gridal,.gridjake, .gridbrad, .gridchris{
+.gridal,.gridjake, .gridbrad, .gridchris, .gridleo{
     width: 79%;
     border-width: 2px;
     border-top-color: #ff9f1c;
@@ -155,19 +160,19 @@ form{
     background-color: #ec0868;
     margin-bottom: 45px;
 }
-.gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover{
+.gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover, .gridleo:hover{
     color: black;
     background-color: #177e89;
 }
 
-.text_al, .text_jake , .text_brad, .text_chris{
+.text_al, .text_jake , .text_brad, .text_chris, .text_leo{
     width: 47%;
     text-align: justify;
     margin-left: 120px;
     margin-bottom: 18px;
 }
 
-.alpacinoactores, .jakeactores, .bradactores, .chrisactores{
+.alpacinoactores, .jakeactores, .bradactores, .chrisactores, .leoactores{
     width: 200px;
     height: 290px;
     border-radius: 170px;
@@ -177,8 +182,15 @@ form{
 .jakeactores, .chrisactores{
     margin-left: 160px;
 }
+.leoactores{
+    margin-left: 130px;
+}
 
-.titulo_al, .titulo_jake, .titulo_brad, .titulo_chris{
+.titulo_leo{
+    margin-left: 130px;
+    font-family: Bebas-Regular;
+}
+.titulo_al, .titulo_jake, .titulo_brad, .titulo_chris {
     margin-left: 170px;
     font-family: Bebas-Regular;
 }
