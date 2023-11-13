@@ -87,19 +87,19 @@ form{
 .peliculas_titulos{
     padding-left: 35px;
 }
-.shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre{ 
+.shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre{ 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.shawshank, .padrino, .batman, .fightclub, .islasiniestra{
+.shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest{
     width: 180px;
     height: 270px;
     border-radius: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.shawtext, .godtext, .battext, .fighttext, .islatext{
+.shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext{
     color: #E6EFE9;
     width: 50%;
     text-align: justify;
@@ -158,12 +158,12 @@ form{
     border-width: 2px;
     border-top-color: #ff9f1c;
     border-radius: 67px;
-    background-color: #ec0868;
+    background-color: #34085e;
     margin-bottom: 45px;
 }
 .gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover, .gridleo:hover{
     color: black;
-    background-color: #177e89;
+    background-color: #888afb;
 }
 
 .text_al, .text_jake , .text_brad, .text_chris, .text_leo{
