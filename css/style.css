@@ -85,7 +85,23 @@ form{
     background-color: #03045e;
 }
 .peliculas_titulos{
-    padding-left: 35px;
+    margin-left: 463px;
+}
+.pelis_text{
+    color: #E6EFE9;
+    padding-left: 527px;
+}
+.actores_titulo{
+    padding-top: 40px;
+    padding-left: 570px;
+    padding-bottom: 13px;
+}
+.actores_text{
+    padding-left: 450px;
+    color: #E6EFE9;
+}
+.peliculas_main{
+    margin-left: 40px;
 }
 .shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre{ 
     display: flex;
@@ -103,6 +119,13 @@ form{
     color: #E6EFE9;
     width: 50%;
     text-align: justify;
+}
+.d-blockw-100_perso{
+    width: 200px;
+    height: 290px;
+    border-radius: 15px;
+    margin-left: 168px;
+    margin-bottom: 40px;
 }
 .indexshaw, .indexgod, .indexbat, .indexseven, .indexinception{
     width: 200px;
@@ -138,11 +161,6 @@ form{
     margin-left: 40px;
     margin-bottom: 15px;
 }
-.actores_index{
-    margin-top: 15px;
-    margin-left: 33px;
-    margin-bottom: 15px;
-}
 .indexalpacino, .indexjake, .indexbrad, .indexchris, .indexcilian{
     width: 200px;
     height: 290px;
@@ -153,7 +171,7 @@ form{
     color: #E6EFE9;
     padding-left: 70px;
 }
-.gridal,.gridjake, .gridbrad, .gridchris, .gridleo{
+.gridal,.gridjake, .gridbrad, .gridchris, .gridleo, .gridtomhanks{
     width: 79%;
     border-width: 2px;
     border-top-color: #ff9f1c;
@@ -161,19 +179,17 @@ form{
     background-color: #34085e;
     margin-bottom: 45px;
 }
-.gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover, .gridleo:hover{
+.gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover, .gridleo:hover, .gridtomhanks:hover{
     color: black;
     background-color: #888afb;
 }
-
-.text_al, .text_jake , .text_brad, .text_chris, .text_leo{
+.text_al, .text_jake , .text_brad, .text_chris, .text_leo, .text_tomhanks{
     width: 47%;
     text-align: justify;
     margin-left: 120px;
     margin-bottom: 18px;
 }
-
-.alpacinoactores, .jakeactores, .bradactores, .chrisactores, .leoactores{
+.alpacinoactores, .jakeactores, .bradactores, .chrisactores, .leoactores, .tomhanksactores{
     width: 200px;
     height: 290px;
     border-radius: 170px;
@@ -183,15 +199,14 @@ form{
 .jakeactores, .chrisactores{
     margin-left: 160px;
 }
-.leoactores{
+.leoactores, .tomhanksactores{
     margin-left: 130px;
 }
-
 .titulo_leo{
     margin-left: 130px;
     font-family: Bebas-Regular;
 }
-.titulo_al, .titulo_jake, .titulo_brad, .titulo_chris {
+.titulo_al, .titulo_jake, .titulo_brad, .titulo_chris, .titulo_tomhanks {
     margin-left: 170px;
     font-family: Bebas-Regular;
 }
@@ -248,4 +263,5 @@ form{
 .text_actores, .text_index, .text_top{
     color: #E6EFE9;
     font-size: 18px;
+    width: auto;
 }
