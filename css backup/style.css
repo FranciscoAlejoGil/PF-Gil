@@ -1,0 +1,267 @@
+html{
+    font-family: Roboto-Light ;
+    background-color: #03045e !important;
+    color: #E6EFE9;
+}
+.body_index{
+    background-color: #03045e;
+}
+h1, h2, h3{
+    font-family: boldfont;
+    color: #E6EFE9;
+}
+.bodyfull{
+    background-color: #03045e;
+    color: #E6EFE9;
+    
+}
+@font-face {
+    font-family: "Bebas-Regular";
+    src: url(../font/Bebas-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "boldfont";
+    src: url(../font/boldfont.ttf);
+}
+@font-face {
+    font-family: "fFinish";
+    src: url(../font/fFinish.ttf);
+}
+@media (max-width: 744px) {
+    .index12, .indexgodII, .indexcilian, .indexchris{
+        display: none;
+    }
+}
+@media (max-width: 1010px){
+    .indexshaw, .indexgod, .indexbat, .indexgodII{
+        padding-bottom: 23px;
+    }
+}
+@media (max-width: 687px){
+    .shawtext, .godtext, .battext, .fighttext, .islatext{
+        display: none;
+    }
+}
+/* probando fonts
+@font-face {
+    font-family: "monaco";
+    src: url(../font/monaco.ttf);
+}
+@font-face {
+    font-family: "gitaluevo";
+    src: url(../font/Gitaluevo.ttf);
+}
+@font-face {
+    font-family: "moderna";
+    src: url(../font/MODERNA_.TTF);
+}
+*/
+form{
+    width: 35%;
+}
+.links{
+    color: #E6EFE9;
+}
+.ticket{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+.comentario{
+    width: 260px;
+    height: 80px;
+    margin-top: 2%;
+}
+.datos{
+    padding-left: 23px;
+    background-color: #03045e;
+    color: #E6EFE9;
+}
+.main_pelis{
+    background-color: #03045e;
+}
+.peliculas_titulos{
+    margin-left: 463px;
+}
+.pelis_text{
+    color: #E6EFE9;
+    padding-left: 527px;
+}
+.actores_titulo{
+    padding-top: 40px;
+    padding-left: 570px;
+    padding-bottom: 13px;
+}
+.actores_text{
+    padding-left: 450px;
+    color: #E6EFE9;
+}
+.peliculas_main{
+    margin-left: 40px;
+}
+.shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest{
+    width: 180px;
+    height: 270px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext{
+    color: #E6EFE9;
+    width: 50%;
+    text-align: justify;
+}
+.d-blockw-100_perso{
+    width: 200px;
+    height: 290px;
+    border-radius: 15px;
+    margin-left: 168px;
+    margin-bottom: 40px;
+}
+.indexshaw, .indexgod, .indexbat, .indexseven, .indexinception{
+    width: 200px;
+    height: 290px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.ulmenuarriba, .ulmenuabajo{
+    background-color: #03045e;
+    list-style-type: none;
+    text-align: center;
+}
+.ilmenu{
+    padding: 2px 7px 2px 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    background-color: #FDF0D5;
+    color: black;
+}
+.ilmenu:hover{
+    background-color: #FDF0D5;
+}
+.pelis_index{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.indexalpacino, .indexjake, .indexbrad, .indexchris, .indexcilian{
+    width: 200px;
+    height: 290px;
+    border-radius: 170px;
+    margin-right: 45px;
+}
+.grid_actores{
+    color: #E6EFE9;
+    padding-left: 70px;
+}
+.gridal,.gridjake, .gridbrad, .gridchris, .gridleo, .gridtomhanks{
+    width: 79%;
+    border-width: 2px;
+    border-top-color: #ff9f1c;
+    border-radius: 67px;
+    background-color: #34085e;
+    margin-bottom: 45px;
+}
+.gridal:hover, .gridjake:hover, .gridbrad:hover, .gridchris:hover, .gridleo:hover, .gridtomhanks:hover{
+    color: black;
+    background-color: #888afb;
+}
+.text_al, .text_jake , .text_brad, .text_chris, .text_leo, .text_tomhanks{
+    width: 47%;
+    text-align: justify;
+    margin-left: 120px;
+    margin-bottom: 18px;
+}
+.alpacinoactores, .jakeactores, .bradactores, .chrisactores, .leoactores, .tomhanksactores{
+    width: 200px;
+    height: 290px;
+    border-radius: 170px;
+    margin-right: 45px;
+    margin-left: 120px;
+}
+.jakeactores, .chrisactores{
+    margin-left: 160px;
+}
+.leoactores, .tomhanksactores{
+    margin-left: 130px;
+}
+.titulo_leo{
+    margin-left: 130px;
+    font-family: Bebas-Regular;
+}
+.titulo_al, .titulo_jake, .titulo_brad, .titulo_chris, .titulo_tomhanks {
+    margin-left: 170px;
+    font-family: Bebas-Regular;
+}
+.grid{
+    background-color: #03045e;
+}
+.header_actores{
+    background-color: #03045e;
+}
+.grid_actores{
+    background-color: #03045e;
+    border: #7FEFBD;
+    border-width: 23px;
+    display: grid;
+    grid-template-columns: repeat(2, 630px);
+}
+.menu_perso{
+    background-color:#03045e;
+    background-color: transparent;
+}
+.principal{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #03045e;
+    color: #E6EFE9;
+}
+.bg-body-perso{
+    background-color: #03045e;
+}
+.navbar-menu1{
+    text-decoration: none;
+    color: #E6EFE9;
+    font-size: 26px;
+}
+.linksnos{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.linksnos:hover{
+    font-size: 22px;
+}
+.offcanvas-title_perso{
+    margin-top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.navbar-toggler_perso{
+    background-color: #E6EFE9;
+    border: #E6EFE9 solid 2px;
+    border-radius: 9px;
+    margin-right: 28px;
+}
+.text_actores, .text_index, .text_top{
+    color: #E6EFE9;
+    font-size: 18px;
+    width: auto;
+}
