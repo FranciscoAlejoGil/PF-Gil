@@ -59,12 +59,9 @@ html{
                 font-size: 22px;
             }
         }
-        .peliculas_titulos{
-            margin-left: 463px;
-        }
-        .pelis_text{
+        .padre_pelis_index, .padre_actores_index{
+            text-align: center;
             color: #E6EFE9;
-            padding-left: 527px;
         }
         .d-blockw-100_perso{
             width: 200px;
@@ -125,19 +122,19 @@ html{
         }
         .peliculas_main{
             margin-left: 40px;
-            .shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre{ 
+            .shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre, .scarfacepadre{ 
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
             }
-            .shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest{
+            .shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest, .scarface{
                 width: 180px;
                 height: 270px;
                 border-radius: 20px;
                 margin-right: 10px;
                 margin-bottom: 10px;
             }
-            .shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext{
+            .shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext, .scarfacetext{
                 color: #E6EFE9;
                 width: 50%;
                 text-align: justify;
@@ -183,7 +180,6 @@ html{
                     font-size: 22px;
                 }
             }
-            
         }
         .grid_actores{
             padding-left: 70px;

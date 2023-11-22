@@ -61,12 +61,9 @@ html .body_index .linksnos {
 html .body_index .linksnos:hover {
   font-size: 22px;
 }
-html .body_index .peliculas_titulos {
-  margin-left: 463px;
-}
-html .body_index .pelis_text {
+html .body_index .padre_pelis_index, html .body_index .padre_actores_index {
+  text-align: center;
   color: #E6EFE9;
-  padding-left: 527px;
 }
 html .body_index .d-blockw-100_perso {
   width: 200px;
@@ -128,19 +125,19 @@ html .main_pelis .menu_perso .linksnos:hover {
 html .main_pelis .peliculas_main {
   margin-left: 40px;
 }
-html .main_pelis .peliculas_main .shawpadre, html .main_pelis .peliculas_main .godpadre, html .main_pelis .peliculas_main .batpadre, html .main_pelis .peliculas_main .fightpadre, html .main_pelis .peliculas_main .islapadre, html .main_pelis .peliculas_main .whiplashpadre, html .main_pelis .peliculas_main .salvandopadre, html .main_pelis .peliculas_main .carspadre, html .main_pelis .peliculas_main .persuitpadre, html .main_pelis .peliculas_main .forrestpadre {
+html .main_pelis .peliculas_main .shawpadre, html .main_pelis .peliculas_main .godpadre, html .main_pelis .peliculas_main .batpadre, html .main_pelis .peliculas_main .fightpadre, html .main_pelis .peliculas_main .islapadre, html .main_pelis .peliculas_main .whiplashpadre, html .main_pelis .peliculas_main .salvandopadre, html .main_pelis .peliculas_main .carspadre, html .main_pelis .peliculas_main .persuitpadre, html .main_pelis .peliculas_main .forrestpadre, html .main_pelis .peliculas_main .scarfacepadre {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-html .main_pelis .peliculas_main .shawshank, html .main_pelis .peliculas_main .padrino, html .main_pelis .peliculas_main .batman, html .main_pelis .peliculas_main .fightclub, html .main_pelis .peliculas_main .islasiniestra, html .main_pelis .peliculas_main .whiplash, html .main_pelis .peliculas_main .saving, html .main_pelis .peliculas_main .cars, html .main_pelis .peliculas_main .persuit, html .main_pelis .peliculas_main .forrest {
+html .main_pelis .peliculas_main .shawshank, html .main_pelis .peliculas_main .padrino, html .main_pelis .peliculas_main .batman, html .main_pelis .peliculas_main .fightclub, html .main_pelis .peliculas_main .islasiniestra, html .main_pelis .peliculas_main .whiplash, html .main_pelis .peliculas_main .saving, html .main_pelis .peliculas_main .cars, html .main_pelis .peliculas_main .persuit, html .main_pelis .peliculas_main .forrest, html .main_pelis .peliculas_main .scarface {
   width: 180px;
   height: 270px;
   border-radius: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-html .main_pelis .peliculas_main .shawtext, html .main_pelis .peliculas_main .godtext, html .main_pelis .peliculas_main .battext, html .main_pelis .peliculas_main .fighttext, html .main_pelis .peliculas_main .islatext, html .main_pelis .peliculas_main .whiplashtext, html .main_pelis .peliculas_main .savingtext, html .main_pelis .peliculas_main .carstext, html .main_pelis .peliculas_main .persuittext, html .main_pelis .peliculas_main .forresttext {
+html .main_pelis .peliculas_main .shawtext, html .main_pelis .peliculas_main .godtext, html .main_pelis .peliculas_main .battext, html .main_pelis .peliculas_main .fighttext, html .main_pelis .peliculas_main .islatext, html .main_pelis .peliculas_main .whiplashtext, html .main_pelis .peliculas_main .savingtext, html .main_pelis .peliculas_main .carstext, html .main_pelis .peliculas_main .persuittext, html .main_pelis .peliculas_main .forresttext, html .main_pelis .peliculas_main .scarfacetext {
   color: #E6EFE9;
   width: 50%;
   text-align: justify;
