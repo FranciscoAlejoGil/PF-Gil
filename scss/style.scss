@@ -122,19 +122,19 @@ html{
         }
         .peliculas_main{
             margin-left: 40px;
-            .shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre, .scarfacepadre{ 
+            .shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre, .scarfacepadre, .shiningpadre, .wallpadre, .se7enpadre{ 
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
             }
-            .shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest, .scarface{
+            .shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest, .scarface, .shining, .wall, .se7en{
                 width: 180px;
                 height: 270px;
                 border-radius: 20px;
                 margin-right: 10px;
                 margin-bottom: 10px;
             }
-            .shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext, .scarfacetext{
+            .shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext, .scarfacetext, .shiningtext, .walltext, .se7entext{
                 color: #E6EFE9;
                 width: 50%;
                 text-align: justify;
