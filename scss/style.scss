@@ -122,22 +122,23 @@ html{
         }
         .peliculas_main{
             margin-left: 40px;
-            .shawpadre, .godpadre, .batpadre, .fightpadre, .islapadre, .whiplashpadre, .salvandopadre, .carspadre, .persuitpadre, .forrestpadre, .scarfacepadre, .shiningpadre, .wallpadre, .se7enpadre, .titanicpadre, .bastardospadre, .catchpadre{ 
+            .fotoytexto{ 
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
             }
-            .shawshank, .padrino, .batman, .fightclub, .islasiniestra, .whiplash, .saving, .cars, .persuit, .forrest, .scarface, .shining, .wall, .se7en, .titanic, .bastardos, .catch{
+            .foto{
                 width: 180px;
                 height: 270px;
                 border-radius: 20px;
                 margin-right: 10px;
                 margin-bottom: 10px;
             }
-            .shawtext, .godtext, .battext, .fighttext, .islatext, .whiplashtext, .savingtext, .carstext, .persuittext, .forresttext, .scarfacetext, .shiningtext, .walltext, .se7entext, .titanictext, .bastardostext, .catchtext{
+            .texto{
                 color: #E6EFE9;
-                width: 50%;
+                width: 55%;
                 text-align: justify;
+                
             }
         }
     }
