@@ -125,19 +125,19 @@ html .main_pelis .menu_perso .linksnos:hover {
 html .main_pelis .peliculas_main {
   margin-left: 40px;
 }
-html .main_pelis .peliculas_main .shawpadre, html .main_pelis .peliculas_main .godpadre, html .main_pelis .peliculas_main .batpadre, html .main_pelis .peliculas_main .fightpadre, html .main_pelis .peliculas_main .islapadre, html .main_pelis .peliculas_main .whiplashpadre, html .main_pelis .peliculas_main .salvandopadre, html .main_pelis .peliculas_main .carspadre, html .main_pelis .peliculas_main .persuitpadre, html .main_pelis .peliculas_main .forrestpadre, html .main_pelis .peliculas_main .scarfacepadre, html .main_pelis .peliculas_main .shiningpadre, html .main_pelis .peliculas_main .wallpadre, html .main_pelis .peliculas_main .se7enpadre {
+html .main_pelis .peliculas_main .shawpadre, html .main_pelis .peliculas_main .godpadre, html .main_pelis .peliculas_main .batpadre, html .main_pelis .peliculas_main .fightpadre, html .main_pelis .peliculas_main .islapadre, html .main_pelis .peliculas_main .whiplashpadre, html .main_pelis .peliculas_main .salvandopadre, html .main_pelis .peliculas_main .carspadre, html .main_pelis .peliculas_main .persuitpadre, html .main_pelis .peliculas_main .forrestpadre, html .main_pelis .peliculas_main .scarfacepadre, html .main_pelis .peliculas_main .shiningpadre, html .main_pelis .peliculas_main .wallpadre, html .main_pelis .peliculas_main .se7enpadre, html .main_pelis .peliculas_main .titanicpadre, html .main_pelis .peliculas_main .bastardospadre, html .main_pelis .peliculas_main .catchpadre {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-html .main_pelis .peliculas_main .shawshank, html .main_pelis .peliculas_main .padrino, html .main_pelis .peliculas_main .batman, html .main_pelis .peliculas_main .fightclub, html .main_pelis .peliculas_main .islasiniestra, html .main_pelis .peliculas_main .whiplash, html .main_pelis .peliculas_main .saving, html .main_pelis .peliculas_main .cars, html .main_pelis .peliculas_main .persuit, html .main_pelis .peliculas_main .forrest, html .main_pelis .peliculas_main .scarface, html .main_pelis .peliculas_main .shining, html .main_pelis .peliculas_main .wall, html .main_pelis .peliculas_main .se7en {
+html .main_pelis .peliculas_main .shawshank, html .main_pelis .peliculas_main .padrino, html .main_pelis .peliculas_main .batman, html .main_pelis .peliculas_main .fightclub, html .main_pelis .peliculas_main .islasiniestra, html .main_pelis .peliculas_main .whiplash, html .main_pelis .peliculas_main .saving, html .main_pelis .peliculas_main .cars, html .main_pelis .peliculas_main .persuit, html .main_pelis .peliculas_main .forrest, html .main_pelis .peliculas_main .scarface, html .main_pelis .peliculas_main .shining, html .main_pelis .peliculas_main .wall, html .main_pelis .peliculas_main .se7en, html .main_pelis .peliculas_main .titanic, html .main_pelis .peliculas_main .bastardos, html .main_pelis .peliculas_main .catch {
   width: 180px;
   height: 270px;
   border-radius: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-html .main_pelis .peliculas_main .shawtext, html .main_pelis .peliculas_main .godtext, html .main_pelis .peliculas_main .battext, html .main_pelis .peliculas_main .fighttext, html .main_pelis .peliculas_main .islatext, html .main_pelis .peliculas_main .whiplashtext, html .main_pelis .peliculas_main .savingtext, html .main_pelis .peliculas_main .carstext, html .main_pelis .peliculas_main .persuittext, html .main_pelis .peliculas_main .forresttext, html .main_pelis .peliculas_main .scarfacetext, html .main_pelis .peliculas_main .shiningtext, html .main_pelis .peliculas_main .walltext, html .main_pelis .peliculas_main .se7entext {
+html .main_pelis .peliculas_main .shawtext, html .main_pelis .peliculas_main .godtext, html .main_pelis .peliculas_main .battext, html .main_pelis .peliculas_main .fighttext, html .main_pelis .peliculas_main .islatext, html .main_pelis .peliculas_main .whiplashtext, html .main_pelis .peliculas_main .savingtext, html .main_pelis .peliculas_main .carstext, html .main_pelis .peliculas_main .persuittext, html .main_pelis .peliculas_main .forresttext, html .main_pelis .peliculas_main .scarfacetext, html .main_pelis .peliculas_main .shiningtext, html .main_pelis .peliculas_main .walltext, html .main_pelis .peliculas_main .se7entext, html .main_pelis .peliculas_main .titanictext, html .main_pelis .peliculas_main .bastardostext, html .main_pelis .peliculas_main .catchtext {
   color: #E6EFE9;
   width: 50%;
   text-align: justify;
