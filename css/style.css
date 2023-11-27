@@ -125,21 +125,40 @@ html .main_pelis .menu_perso .linksnos:hover {
 html .main_pelis .peliculas_main {
   margin-left: 40px;
 }
-html .main_pelis .peliculas_main .fotoytexto {
+html .main_pelis .peliculas_main .titulofotoytexto {
+  border: black solid 4px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+html .main_pelis .peliculas_main .titulofotoytexto:over {
+  text-align: center;
+  align-items: center;
+}
+html .main_pelis .peliculas_main .titulofotoytexto:over .foto {
+  display: none;
+}
+html .main_pelis .peliculas_main .titulofotoytexto:over .texto {
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+html .main_pelis .peliculas_main .titulofotoytexto .fotoytexto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 30px;
+  margin-right: 30px;
 }
-html .main_pelis .peliculas_main .foto {
+html .main_pelis .peliculas_main .titulofotoytexto .foto {
   width: 180px;
   height: 270px;
   border-radius: 20px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-html .main_pelis .peliculas_main .texto {
+html .main_pelis .peliculas_main .titulofotoytexto .texto {
   color: #E6EFE9;
-  width: 55%;
+  width: 70%;
   text-align: justify;
 }
 html .grid {
