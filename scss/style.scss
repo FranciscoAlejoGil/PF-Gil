@@ -57,6 +57,7 @@ html{
             font-size: 18px;
             &:hover{
                 font-size: 22px;
+                text-decoration: underline;
             }
         }
         .padre_pelis_index, .padre_actores_index{
@@ -69,6 +70,8 @@ html{
             border-radius: 15px;
             margin-left: 168px;
             margin-bottom: 40px;
+            align-items: center;
+            justify-content: center;
         }
         .actores_titulo{
             padding-top: 40px;
@@ -138,6 +141,7 @@ html{
                 font-size: 18px;
                 &:hover{
                     font-size: 22px;
+                    text-decoration: underline;
                 }
             }
         }
@@ -244,6 +248,7 @@ html{
                 font-size: 18px;
                 &:hover{
                     font-size: 22px;
+                    text-decoration: underline;
                 }
             }
         }
@@ -328,9 +333,11 @@ html{
                 font-size: 18px;
                 &:hover{
                     font-size: 22px;
+                    text-decoration: underline;
                 }
             }
         }
+
     }
     .body_contacto{
         background-color: #03045e;
@@ -369,6 +376,7 @@ html{
                 font-size: 18px;
                 &:hover{
                     font-size: 22px;
+                    text-decoration: underline;
                 }
             }
         }
@@ -385,3 +393,5 @@ html{
         }
     }
 }
+
+@import "./partials/queries";
