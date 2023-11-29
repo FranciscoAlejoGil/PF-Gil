@@ -248,48 +248,45 @@ html{
             }
         }
         .grid_actores{
-            padding-left: 50px;
-            background-color: #03045e;
-            border: #7FEFBD;
-            border-width: 23px;
+            border: #caf0f8 solid 3px;
+            border-radius: 30px;
+            width: 1200px;
+            margin-left: 40px;
+            margin-bottom: 40px;
+            background-color: #caf0f8;
             display: grid;
             grid-template-columns: repeat(2, 650px);
-            .gridal,.gridjake, .gridbrad, .gridchris, .gridleo, .gridtomhanks{
+            .gridactor{
                 width: 79%;
-                border-width: 2px;
+                background-color: #03045e;
+                border: #00b4d8 2px solid;
                 color: #E6EFE9;
-                border-top-color: #ff9f1c;
+                border: #03045e;
                 border-radius: 67px;
-                margin-bottom: 45px;
+                margin-bottom: 25px;
+                margin-left: 15px;
+                margin-top: 25px;
+                align-items: center;
+                text-align: center;
                 &:hover{
                     background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
                 }
             }
-            .alpacinoactores, .jakeactores, .bradactores, .chrisactores, .leoactores, .tomhanksactores{
+            .foto{
                 width: 200px;
                 height: 290px;
                 border-radius: 170px;
-                margin-right: 45px;
-                margin-left: 120px;
+                margin-bottom: 29px;
+                margin-top: 22px;
             }
-            .jakeactores, .chrisactores{
-                margin-left: 160px;
-            }
-            .leoactores, .tomhanksactores{
-                margin-left: 130px;
-            }
-            .titulo_leo{
-                margin-left: 130px;
+            .titulo{
                 font-family: Bebas-Regular;
+                margin-top: 22px;
             }
-            .titulo_al, .titulo_jake, .titulo_brad, .titulo_chris, .titulo_tomhanks {
-                margin-left: 170px;
-                font-family: Bebas-Regular;
-            }
-            .text_al, .text_jake , .text_brad, .text_chris, .text_leo, .text_tomhanks{
-                width: 60%;
+            .texto{
+                width: 70%;
                 text-align: justify;
-                margin-left: 120px;
+                margin-left: 90px;
                 margin-bottom: 18px;
             }
         }

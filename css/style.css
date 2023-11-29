@@ -250,49 +250,46 @@ html .grid .menu_perso .linksnos:hover {
   font-size: 22px;
 }
 html .grid .grid_actores {
-  padding-left: 50px;
-  background-color: #03045e;
-  border: #7FEFBD;
-  border-width: 23px;
+  border: #caf0f8 solid 3px;
+  border-radius: 30px;
+  width: 1200px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  background-color: #caf0f8;
   display: grid;
   grid-template-columns: repeat(2, 650px);
 }
-html .grid .grid_actores .gridal, html .grid .grid_actores .gridjake, html .grid .grid_actores .gridbrad, html .grid .grid_actores .gridchris, html .grid .grid_actores .gridleo, html .grid .grid_actores .gridtomhanks {
+html .grid .grid_actores .gridactor {
   width: 79%;
-  border-width: 2px;
+  background-color: #03045e;
+  border: #00b4d8 2px solid;
   color: #E6EFE9;
-  border-top-color: #ff9f1c;
+  border: #03045e;
   border-radius: 67px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-top: 25px;
+  align-items: center;
+  text-align: center;
 }
-html .grid .grid_actores .gridal:hover, html .grid .grid_actores .gridjake:hover, html .grid .grid_actores .gridbrad:hover, html .grid .grid_actores .gridchris:hover, html .grid .grid_actores .gridleo:hover, html .grid .grid_actores .gridtomhanks:hover {
+html .grid .grid_actores .gridactor:hover {
   background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
 }
-html .grid .grid_actores .alpacinoactores, html .grid .grid_actores .jakeactores, html .grid .grid_actores .bradactores, html .grid .grid_actores .chrisactores, html .grid .grid_actores .leoactores, html .grid .grid_actores .tomhanksactores {
+html .grid .grid_actores .foto {
   width: 200px;
   height: 290px;
   border-radius: 170px;
-  margin-right: 45px;
-  margin-left: 120px;
+  margin-bottom: 29px;
+  margin-top: 22px;
 }
-html .grid .grid_actores .jakeactores, html .grid .grid_actores .chrisactores {
-  margin-left: 160px;
-}
-html .grid .grid_actores .leoactores, html .grid .grid_actores .tomhanksactores {
-  margin-left: 130px;
-}
-html .grid .grid_actores .titulo_leo {
-  margin-left: 130px;
+html .grid .grid_actores .titulo {
   font-family: Bebas-Regular;
+  margin-top: 22px;
 }
-html .grid .grid_actores .titulo_al, html .grid .grid_actores .titulo_jake, html .grid .grid_actores .titulo_brad, html .grid .grid_actores .titulo_chris, html .grid .grid_actores .titulo_tomhanks {
-  margin-left: 170px;
-  font-family: Bebas-Regular;
-}
-html .grid .grid_actores .text_al, html .grid .grid_actores .text_jake, html .grid .grid_actores .text_brad, html .grid .grid_actores .text_chris, html .grid .grid_actores .text_leo, html .grid .grid_actores .text_tomhanks {
-  width: 60%;
+html .grid .grid_actores .texto {
+  width: 70%;
   text-align: justify;
-  margin-left: 120px;
+  margin-left: 90px;
   margin-bottom: 18px;
 }
 html .body_nosotros {
