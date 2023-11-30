@@ -339,6 +339,139 @@ html .body_nosotros .menu_perso .linksnos:hover {
   font-size: 22px;
   text-decoration: underline;
 }
+html .body_nosotros .nosotrosmain {
+  background-color: #caf0f8;
+  position: absolute;
+  left: 180px;
+  width: 65%;
+  height: 1300px;
+  display: grid;
+  border-radius: 37px;
+  grid-template-columns: repeat(2, 700px);
+}
+html .body_nosotros .nosotrosmain .textonosotros1 {
+  position: relative;
+  left: -140px;
+  background-color: #003589;
+  font-size: 50px;
+  color: #E6EFE9;
+  text-align: center;
+  width: 370px;
+  height: 100px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+html .body_nosotros .nosotrosmain .textonosotros1:hover {
+  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+}
+html .body_nosotros .nosotrosmain .textonosotrosR1 {
+  background-color: #008ac4;
+  position: relative;
+  left: -290px;
+  display: block;
+  color: #E6EFE9;
+  text-align: justify;
+  font-size: 17px;
+  width: 500px;
+  height: 170px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 700px;
+  margin-top: 200px;
+}
+html .body_nosotros .nosotrosmain .textonosotrosR1:hover {
+  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+}
+html .body_nosotros .nosotrosmain .textonosotros2 {
+  position: relative;
+  left: -50px;
+  top: -100px;
+  background-color: #003589;
+  font-size: 27px;
+  color: #E6EFE9;
+  text-align: center;
+  width: 370px;
+  height: 100px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html .body_nosotros .nosotrosmain .textonosotros2:hover {
+  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+}
+html .body_nosotros .nosotrosmain .textonosotrosR2 {
+  background-color: #008ac4;
+  position: relative;
+  left: -290px;
+  top: 40px;
+  display: block;
+  color: #E6EFE9;
+  text-align: justify;
+  font-size: 17px;
+  width: 500px;
+  height: 175px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html .body_nosotros .nosotrosmain .textonosotrosR2:hover {
+  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+}
+html .body_nosotros .nosotrosmain .textonosotros3 {
+  position: relative;
+  left: -50px;
+  top: -40px;
+  background-color: #003589;
+  font-size: 27px;
+  color: #E6EFE9;
+  text-align: center;
+  width: 370px;
+  height: 100px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html .body_nosotros .nosotrosmain .textonosotros3:hover {
+  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+}
+html .body_nosotros .nosotrosmain .textonosotrosR3 {
+  background-color: #008ac4;
+  position: relative;
+  left: -290px;
+  top: 130px;
+  display: block;
+  color: #E6EFE9;
+  text-align: justify;
+  font-size: 17px;
+  width: 500px;
+  height: 110px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+html .body_nosotros .nosotrosmain .textonosotrosR3 .linkedin {
+  color: #E6EFE9;
+  text-decoration: underline;
+}
+html .body_nosotros .nosotrosmain .textonosotrosR3:hover {
+  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+}
 html .body_contacto {
   background-color: #03045e;
 }
@@ -397,16 +530,161 @@ html .body_contacto .datos .comentario {
   .desaparece {
     display: none;
   }
+  .navbar-toggler_perso {
+    margin-right: 2px !important;
+  }
+  .peliculas_main {
+    margin-left: 0px !important;
+    margin-bottom: 0% !important;
+    border-radius: 0% !important;
+    width: 800px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+  }
+  .titulofotoytexto {
+    width: 300px !important;
+  }
+  .texto {
+    display: none;
+  }
+  .foto {
+    margin-left: 20px;
+  }
+  .titulofotoytexto {
+    align-items: center;
+  }
+  .nosotrosmain {
+    position: absolute;
+    left: 110px !important;
+  }
+  .textonosotros1 {
+    position: relative;
+    left: 100px !important;
+  }
+  .textonosotrosR1 {
+    position: relative;
+    left: -560px !important;
+  }
+  .textonosotros2 {
+    position: relative;
+    left: 200px !important;
+  }
+  .textonosotrosR2 {
+    position: relative;
+    left: -560px !important;
+  }
+  .textonosotros3 {
+    position: relative;
+    left: 200px !important;
+  }
+  .textonosotrosR3 {
+    position: relative;
+    left: -560px !important;
+  }
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .desaparece2 {
     display: none;
   }
+  .ticket {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .peliculastitulo {
+    font-size: 23px;
+  }
+  .peliculastexto {
+    font-size: 10px;
+  }
+  .textonosotros1 {
+    width: 230px !important;
+    height: 70px !important;
+    font-size: 30px !important;
+    position: relative;
+    left: 40px !important;
+  }
+  .textonosotrosR1 {
+    font-size: 11px !important;
+    width: 250px !important;
+    position: relative;
+    left: -px !important;
+  }
+  .textonosotros2 {
+    width: 230px !important;
+    height: 70px !important;
+    font-size: 15px !important;
+    position: relative;
+    left: 150px !important;
+  }
+  .textonosotrosR2 {
+    font-size: 11px !important;
+    width: 250px !important;
+    position: relative;
+    left: -px !important;
+  }
+  .textonosotros3 {
+    width: 230px !important;
+    height: 70px !important;
+    font-size: 18px !important;
+    position: relative;
+    left: 150px !important;
+  }
+  .textonosotrosR3 {
+    font-size: 11px !important;
+    width: 250px !important;
+    position: relative;
+    left: -px !important;
+  }
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+  .linksnos {
+    font-size: 10px !important;
+  }
   .d-blockw-100_perso {
-    margin-left: 0px;
+    width: 140px !important;
+    height: 210px !important;
+    margin-left: 140px !important;
     margin-bottom: 40px;
+  }
+  .navbar-toggler_perso {
+    margin-right: 2px !important;
+    width: 34px;
+    height: 29px;
+  }
+  .cine {
+    font-size: 23px !important;
+  }
+  .text_index {
+    font-size: 11px !important;
+  }
+  .titulo_ {
+    font-size: 20px;
+  }
+  .texto_ {
+    font-size: 10px;
+  }
+  .peliculastitulo {
+    font-size: 18px;
+  }
+  .peliculastexto {
+    font-size: 7px;
+  }
+}
+@media (max-width: 430px) {
+  .peliculas_main {
+    display: block;
+    align-items: center;
+    width: 380px !important;
+  }
+  .top {
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 5px !important;
+  }
+}
+@media (max-width: 320px) {
+  .d-blockw-100_perso {
+    margin-left: 86px !important;
   }
 }
 
