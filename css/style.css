@@ -65,6 +65,7 @@ html .body_index .linksnos:hover {
 html .body_index .padre_pelis_index, html .body_index .padre_actores_index {
   text-align: center;
   color: #E6EFE9;
+  margin-top: 30px;
 }
 html .body_index .d-blockw-100_perso {
   width: 200px;
@@ -258,11 +259,12 @@ html .grid .grid_actores {
   border: #caf0f8 solid 3px;
   border-radius: 30px;
   width: 1200px;
-  margin-left: 40px;
+  align-items: center;
+  margin-left: 20px;
   margin-bottom: 40px;
   background-color: #caf0f8;
   display: grid;
-  grid-template-columns: repeat(2, 650px);
+  grid-template-columns: repeat(2, 2fr);
 }
 html .grid .grid_actores .gridactor {
   width: 79%;
@@ -271,8 +273,8 @@ html .grid .grid_actores .gridactor {
   color: #E6EFE9;
   border: #03045e;
   border-radius: 67px;
+  margin-left: 60px;
   margin-bottom: 25px;
-  margin-left: 15px;
   margin-top: 25px;
   align-items: center;
   text-align: center;
@@ -553,6 +555,9 @@ html .body_contacto .datos .comentario {
   .titulofotoytexto {
     align-items: center;
   }
+  .grid_actores {
+    width: 760px !important;
+  }
   .nosotrosmain {
     position: absolute;
     left: 110px !important;
@@ -595,6 +600,16 @@ html .body_contacto .datos .comentario {
   }
   .peliculastexto {
     font-size: 10px;
+  }
+  .actores {
+    font-size: 23px;
+  }
+  .textact {
+    font-size: 10px;
+  }
+  .grid_actores {
+    width: 300px !important;
+    grid-template-columns: repeat(1, 300px) !important;
   }
   .textonosotros1 {
     width: 230px !important;

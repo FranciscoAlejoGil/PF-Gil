@@ -63,6 +63,7 @@ html{
         .padre_pelis_index, .padre_actores_index{
             text-align: center;
             color: #E6EFE9;
+            margin-top: 30px;
         }
         .d-blockw-100_perso{
             width: 200px;
@@ -256,11 +257,12 @@ html{
             border: #caf0f8 solid 3px;
             border-radius: 30px;
             width: 1200px;
-            margin-left: 40px;
+            align-items: center;
+            margin-left: 20px;
             margin-bottom: 40px;
             background-color: #caf0f8;
             display: grid;
-            grid-template-columns: repeat(2, 650px);
+            grid-template-columns: repeat(2, 2fr);
             .gridactor{
                 width: 79%;
                 background-color: #03045e;
@@ -268,8 +270,8 @@ html{
                 color: #E6EFE9;
                 border: #03045e;
                 border-radius: 67px;
+                margin-left: 60px;
                 margin-bottom: 25px;
-                margin-left: 15px;
                 margin-top: 25px;
                 align-items: center;
                 text-align: center;

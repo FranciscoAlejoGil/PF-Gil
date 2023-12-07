@@ -25,6 +25,9 @@
     .titulofotoytexto{
         align-items: center;
     }
+    .grid_actores{
+        width: 760px !important;
+    }
     .nosotrosmain{
         position: absolute;
         left: 110px !important;
@@ -68,6 +71,16 @@
     }
     .peliculastexto{
         font-size: 10px;
+    }
+    .actores{
+        font-size: 23px;
+    }
+    .textact{
+        font-size: 10px;
+    }
+    .grid_actores{
+        width: 300px !important;
+        grid-template-columns: repeat(1, 300px) !important;
     }
     .textonosotros1{
         width: 230px !important;
