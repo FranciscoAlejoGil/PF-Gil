@@ -14,13 +14,17 @@
   font-family: "fFinish";
   src: url(../font/fFinish.ttf);
 }
+@font-face {
+  font-family: "fFeelingSoon";
+  src: url(../font/fFeelingSoon.ttf);
+}
 html {
   font-family: Roboto-Light;
-  background-color: #03045e !important;
+  background-color: #001845 !important;
   color: #E6EFE9;
 }
 html .body_index {
-  background-color: #03045e;
+  background-color: #001845;
 }
 html .body_index h1, html .body_index h2, html .body_index h3 {
   font-family: boldfont;
@@ -28,7 +32,7 @@ html .body_index h1, html .body_index h2, html .body_index h3 {
 }
 html .body_index .principal {
   font-family: Arial, Helvetica sans-serif;
-  background-color: #03045e;
+  background-color: #001845;
   color: #E6EFE9;
 }
 html .body_index .principal .ticket {
@@ -57,6 +61,7 @@ html .body_index .linksnos {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  transition: font-size 90ms;
 }
 html .body_index .linksnos:hover {
   font-size: 22px;
@@ -85,8 +90,54 @@ html .body_index .actores_text {
   padding-left: 450px;
   color: #E6EFE9;
 }
+html .body_index .redes {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  background-color: #33415C;
+  height: 120px;
+}
+html .body_index .redes ul {
+  list-style: none;
+}
+html .body_index .redes ul .ig {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .body_index .redes ul .ig:hover {
+  font-size: 22px;
+}
+html .body_index .redes ul .X {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .body_index .redes ul .X:hover {
+  font-size: 22px;
+}
+html .body_index .redes ul .linkedin {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .body_index .redes ul .linkedin:hover {
+  font-size: 22px;
+}
 html .main_pelis {
-  background-color: #03045e;
+  background-color: #001845;
 }
 html .main_pelis h1, html .main_pelis h2, html .main_pelis h3 {
   font-family: boldfont;
@@ -95,8 +146,8 @@ html .main_pelis h1, html .main_pelis h2, html .main_pelis h3 {
 html .main_pelis .top {
   width: 50px;
   height: 50px;
-  background-color: #008ac4;
-  border: #003589 2px solid;
+  background-color: #001233;
+  border: #001233 2px solid;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -111,15 +162,15 @@ html .main_pelis .top {
   right: 20px;
 }
 html .main_pelis .top:hover {
-  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+  background-image: linear-gradient(to right, #002855, #002c5c, #003064, #01346b, #013873, #013c7a, #023f80, #024387, #02478e, #034b95, #034f9d, #0353a4);
 }
 html .main_pelis .menu_perso {
-  background-color: #03045e;
+  background-color: #001845;
   background-color: transparent;
 }
 html .main_pelis .menu_perso .principal {
   font-family: Arial, Helvetica sans-serif;
-  background-color: #03045e;
+  background-color: #001845;
   color: #E6EFE9;
 }
 html .main_pelis .menu_perso .principal .ticket {
@@ -143,6 +194,7 @@ html .main_pelis .menu_perso .linksnos {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  transition: font-size 90ms;
 }
 html .main_pelis .menu_perso .linksnos:hover {
   font-size: 22px;
@@ -157,9 +209,9 @@ html .main_pelis .peliculas_main {
   background-color: #caf0f8;
 }
 html .main_pelis .peliculas_main .titulofotoytexto {
-  background-color: #03045e;
+  background-color: #001845;
   width: 1000px;
-  border: #03045e solid 2px;
+  border: #001845 solid 2px;
   border-radius: 10px;
   margin-top: 20px;
   margin-left: 45px;
@@ -168,7 +220,7 @@ html .main_pelis .peliculas_main .titulofotoytexto {
 }
 html .main_pelis .peliculas_main .titulofotoytexto:hover {
   width: 1100px;
-  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+  background-image: linear-gradient(to right, #002855, #002c5c, #003064, #01346b, #013873, #013c7a, #023f80, #024387, #02478e, #034b95, #034f9d, #0353a4);
 }
 html .main_pelis .peliculas_main .titulofotoytexto .titulo {
   text-align: center;
@@ -250,6 +302,7 @@ html .grid .menu_perso .linksnos {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  transition: font-size 90ms;
 }
 html .grid .menu_perso .linksnos:hover {
   font-size: 22px;
@@ -336,6 +389,7 @@ html .body_nosotros .menu_perso .linksnos {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  transition: font-size 90ms;
 }
 html .body_nosotros .menu_perso .linksnos:hover {
   font-size: 22px;
@@ -511,6 +565,7 @@ html .body_contacto .menu_perso .linksnos {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  transition: font-size 90ms;
 }
 html .body_contacto .menu_perso .linksnos:hover {
   font-size: 22px;
