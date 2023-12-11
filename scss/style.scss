@@ -242,9 +242,55 @@ html{
                 }
             }
         }
+        .redes{
+            margin-top: 50px;
+            display: block;
+            text-align: center;
+            background-color: #33415C;
+            height: 120px;
+            ul{
+                list-style: none;
+            .ig{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+            .X{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+            .linkedin{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+        }
     }
     .grid{
-        background-color: #03045e;
+        background-color: #001845;
         h1, h2, h3{
             font-family: boldfont;
             color: #E6EFE9;
@@ -252,8 +298,8 @@ html{
         .top{
             width: 50px;
             height: 50px;
-            background-color: #008ac4;
-            border: #003589 2px solid;
+            background-color: #001233;
+            border: #001233 2px solid;
             text-align:center;
             text-decoration: none;
             color: white;
@@ -267,15 +313,15 @@ html{
             bottom: 30px;
             right: 20px;
             &:hover{
-                background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+                background-image: linear-gradient(to right, #002855, #002c5c, #003064, #01346b, #013873, #013c7a, #023f80, #024387, #02478e, #034b95, #034f9d, #0353a4);
             }
         }
         .menu_perso{
-            background-color:#03045e;
+            background-color:#001845;
             background-color: transparent;
             .principal{
                 font-family: Arial, Helvetica sans-serif;
-                background-color: #03045e;
+                background-color: #001845;
                 color: #E6EFE9;
                 .ticket{
                     width: 90px;
@@ -318,10 +364,10 @@ html{
             grid-template-columns: repeat(2, 2fr);
             .gridactor{
                 width: 79%;
-                background-color: #03045e;
+                background-color: #001845;
                 border: #00b4d8 2px solid;
                 color: #E6EFE9;
-                border: #03045e;
+                border: #001845;
                 border-radius: 67px;
                 margin-left: 60px;
                 margin-bottom: 25px;
@@ -329,7 +375,7 @@ html{
                 align-items: center;
                 text-align: center;
                 &:hover{
-                    background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+                    background-image: linear-gradient(to right, #002855, #002c5c, #003064, #01346b, #013873, #013c7a, #023f80, #024387, #02478e, #034b95, #034f9d, #0353a4);
                 }
             }
             .foto{
@@ -349,6 +395,52 @@ html{
                 margin-left: 90px;
                 margin-bottom: 18px;
             }
+        }
+        .redes{
+            margin-top: 50px;
+            display: block;
+            text-align: center;
+            background-color: #33415C;
+            height: 120px;
+            ul{
+                list-style: none;
+            .ig{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+            .X{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+            .linkedin{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
         }
     }
     .body_nosotros{
@@ -526,19 +618,66 @@ html{
                 }
             }
         }
+        .redes{
+            position: relative;
+            margin-top: 1370px;
+            display: block;
+            text-align: center;
+            background-color: #33415C;
+            height: 120px;
+            ul{
+                list-style: none;
+            .ig{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+            .X{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+            .linkedin{
+                font-family: fFeelingSoon;
+                position: relative;
+                top: 20px;
+                text-decoration: none;
+                color: #E6EFE9;
+                font-size: 20px;
+                transition: font-size 90ms;
+                &:hover{
+                    font-size: 22px;
+                }
+            }
+        }
+        }
     }
     .body_contacto{
-        background-color: #03045e;
+        background-color: #001845;
         h1, h2, h3{
             font-family: boldfont;
             color: #E6EFE9;
         }
         .menu_perso{
-            background-color:#03045e;
+            background-color:#001845;
             background-color: transparent;
             .principal{
                 font-family: Arial, Helvetica sans-serif;
-                background-color: #03045e;
+                background-color: #001845;
                 color: #E6EFE9;
                 .ticket{
                     width: 90px;
@@ -572,9 +711,9 @@ html{
         .datos{
             width: 50%;
             padding-left: 23px;
-            background-color: #03045e;
+            background-color: #001845;
             color: #E6EFE9;
-            .comentario{
+            .comentario2{
                 width: 260px;
                 height: 80px;
                 margin-top: 2%;

@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="./img/flaticon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Contacto</title>
 </head>
 <body class="body_contacto">
@@ -54,24 +55,23 @@
             </div>
         </nav>
 </header>
-    <section class="datos">
-    <form action="" method="">
-        <div class="nombre">
-            <label for="Nombre">Nombre y Apellido</label>
-            <input type="text" name="Nombre" required>
+    <form class="datos">
+        <div class="nombrepadre">
+            <label for="Nombre" class="nombre1">Nombre y Apellido</label>
+            <input type="text" name="Nombre" required class="nombre2">
         </div>
-        <div class="email">
-            <label for="Email">Coloque su Email</label>
-            <input type="email" name="Email" required>
+        <div class="emailpadre">
+            <label for="Email" class="email1">Coloque su Email</label>
+            <input type="email" name="Email" required class="email2">
         </div>
-        <div> 
-            <label for="Comentario">Te dejamos este espacio para que nos cuentes el motivo 
+        <div class="comentario padre"> 
+            <label for="Comentario" class="comentario1">Te dejamos este espacio para que nos cuentes el motivo 
             por el cual te contactas con nosotros. </label>
-        <input type="text" name="Comentario" required class="comentario">
-        <input type="submit" value="Enviar Comentario">
+        <input type="text" name="Comentario" required class="comentario2">
+        <input type="submit" value="Enviar Comentario" class="comentariobutton">
         </div>    
     </form>
-    </section>
+
 </body>
 <script src="./js/bootstrap.js"></script>
 </html>

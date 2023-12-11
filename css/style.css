@@ -244,8 +244,54 @@ html .main_pelis .peliculas_main .titulofotoytexto .texto {
   width: 80%;
   text-align: justify;
 }
+html .main_pelis .redes {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  background-color: #33415C;
+  height: 120px;
+}
+html .main_pelis .redes ul {
+  list-style: none;
+}
+html .main_pelis .redes ul .ig {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .main_pelis .redes ul .ig:hover {
+  font-size: 22px;
+}
+html .main_pelis .redes ul .X {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .main_pelis .redes ul .X:hover {
+  font-size: 22px;
+}
+html .main_pelis .redes ul .linkedin {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .main_pelis .redes ul .linkedin:hover {
+  font-size: 22px;
+}
 html .grid {
-  background-color: #03045e;
+  background-color: #001845;
 }
 html .grid h1, html .grid h2, html .grid h3 {
   font-family: boldfont;
@@ -254,8 +300,8 @@ html .grid h1, html .grid h2, html .grid h3 {
 html .grid .top {
   width: 50px;
   height: 50px;
-  background-color: #008ac4;
-  border: #003589 2px solid;
+  background-color: #001233;
+  border: #001233 2px solid;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -270,15 +316,15 @@ html .grid .top {
   right: 20px;
 }
 html .grid .top:hover {
-  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+  background-image: linear-gradient(to right, #002855, #002c5c, #003064, #01346b, #013873, #013c7a, #023f80, #024387, #02478e, #034b95, #034f9d, #0353a4);
 }
 html .grid .menu_perso {
-  background-color: #03045e;
+  background-color: #001845;
   background-color: transparent;
 }
 html .grid .menu_perso .principal {
   font-family: Arial, Helvetica sans-serif;
-  background-color: #03045e;
+  background-color: #001845;
   color: #E6EFE9;
 }
 html .grid .menu_perso .principal .ticket {
@@ -321,10 +367,10 @@ html .grid .grid_actores {
 }
 html .grid .grid_actores .gridactor {
   width: 79%;
-  background-color: #03045e;
+  background-color: #001845;
   border: #00b4d8 2px solid;
   color: #E6EFE9;
-  border: #03045e;
+  border: #001845;
   border-radius: 67px;
   margin-left: 60px;
   margin-bottom: 25px;
@@ -333,7 +379,7 @@ html .grid .grid_actores .gridactor {
   text-align: center;
 }
 html .grid .grid_actores .gridactor:hover {
-  background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
+  background-image: linear-gradient(to right, #002855, #002c5c, #003064, #01346b, #013873, #013c7a, #023f80, #024387, #02478e, #034b95, #034f9d, #0353a4);
 }
 html .grid .grid_actores .foto {
   width: 200px;
@@ -351,6 +397,52 @@ html .grid .grid_actores .texto {
   text-align: justify;
   margin-left: 90px;
   margin-bottom: 18px;
+}
+html .grid .redes {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  background-color: #33415C;
+  height: 120px;
+}
+html .grid .redes ul {
+  list-style: none;
+}
+html .grid .redes ul .ig {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .grid .redes ul .ig:hover {
+  font-size: 22px;
+}
+html .grid .redes ul .X {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .grid .redes ul .X:hover {
+  font-size: 22px;
+}
+html .grid .redes ul .linkedin {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .grid .redes ul .linkedin:hover {
+  font-size: 22px;
 }
 html .body_nosotros {
   background-color: #03045e;
@@ -528,20 +620,67 @@ html .body_nosotros .nosotrosmain .textonosotrosR3 .linkedin {
 html .body_nosotros .nosotrosmain .textonosotrosR3:hover {
   background-image: linear-gradient(to right, #03045e, #003589, #0060ab, #008ac4, #00b4d8);
 }
+html .body_nosotros .redes {
+  position: relative;
+  margin-top: 1370px;
+  display: block;
+  text-align: center;
+  background-color: #33415C;
+  height: 120px;
+}
+html .body_nosotros .redes ul {
+  list-style: none;
+}
+html .body_nosotros .redes ul .ig {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .body_nosotros .redes ul .ig:hover {
+  font-size: 22px;
+}
+html .body_nosotros .redes ul .X {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .body_nosotros .redes ul .X:hover {
+  font-size: 22px;
+}
+html .body_nosotros .redes ul .linkedin {
+  font-family: fFeelingSoon;
+  position: relative;
+  top: 20px;
+  text-decoration: none;
+  color: #E6EFE9;
+  font-size: 20px;
+  transition: font-size 90ms;
+}
+html .body_nosotros .redes ul .linkedin:hover {
+  font-size: 22px;
+}
 html .body_contacto {
-  background-color: #03045e;
+  background-color: #001845;
 }
 html .body_contacto h1, html .body_contacto h2, html .body_contacto h3 {
   font-family: boldfont;
   color: #E6EFE9;
 }
 html .body_contacto .menu_perso {
-  background-color: #03045e;
+  background-color: #001845;
   background-color: transparent;
 }
 html .body_contacto .menu_perso .principal {
   font-family: Arial, Helvetica sans-serif;
-  background-color: #03045e;
+  background-color: #001845;
   color: #E6EFE9;
 }
 html .body_contacto .menu_perso .principal .ticket {
@@ -574,10 +713,10 @@ html .body_contacto .menu_perso .linksnos:hover {
 html .body_contacto .datos {
   width: 50%;
   padding-left: 23px;
-  background-color: #03045e;
+  background-color: #001845;
   color: #E6EFE9;
 }
-html .body_contacto .datos .comentario {
+html .body_contacto .datos .comentario2 {
   width: 260px;
   height: 80px;
   margin-top: 2%;
