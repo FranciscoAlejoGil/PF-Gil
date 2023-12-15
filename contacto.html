@@ -18,10 +18,10 @@
                     <a href="./index.html">
                         <img src="./img/logo.png" alt="logo" class="ticket" title="Ticket">
                     </a>
-                    <h1>
+                    <h1 class="titulocontacto">
                         Contacto
                     </h1>
-                    <p>
+                    <p class="textocontacto">
                         Dejanos tus datos y el motivo de tu consulta.
                     </p>
                     </section>
@@ -56,19 +56,17 @@
         </nav>
 </header>
     <form class="datos">
-        <div class="nombrepadre">
-            <label for="Nombre" class="nombre1">Nombre y Apellido</label>
-            <input type="text" name="Nombre" required class="nombre2">
+        <div class="form-floating mb-3">
+            <input type="nombreyapellido" class="form-control cubo" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput" class="cubotexto">Nombre y Apellido</label>
         </div>
-        <div class="emailpadre">
-            <label for="Email" class="email1">Coloque su Email</label>
-            <input type="email" name="Email" required class="email2">
+        <div class="form-floating mb-3"> 
+            <input type="email" class="form-control cubo" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput" class="cubotexto">Email</label>
         </div>
-        <div class="comentario padre"> 
-            <label for="Comentario" class="comentario1">Te dejamos este espacio para que nos cuentes el motivo 
-            por el cual te contactas con nosotros. </label>
-        <input type="text" name="Comentario" required class="comentario2">
-        <input type="submit" value="Enviar Comentario" class="comentariobutton">
+        <div class="form-floating coment">
+            <textarea class="form-control cubo comentario" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2" class="cubotexto">Comentario</label>
         </div>    
     </form>
 

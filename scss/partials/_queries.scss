@@ -78,9 +78,9 @@
     .textact{
         font-size: 10px;
     }
-    .grid_actores{
-        width: 300px !important;
-        grid-template-columns: repeat(1, 300px) !important;
+    .gridactor{
+        position: relative;
+        left: -35px;
     }
     .textonosotros1{
         width: 230px !important;
@@ -155,8 +155,29 @@
     .peliculastexto{
         font-size: 7px;
     }
+    .grid_actores{
+        grid-template-columns: repeat(2, 400px) !important;
+    }
+    .gridactor{
+        width: 70%;
+    }
+    .titulocontacto{
+        font-size: 20px;
+    }
+    .textocontacto{
+        font-size: 12px;
+    }
+    .cubo{
+        width: 300px !important;
+    }
+    .cubotexto{
+        font-size: 10px !important;
+    }
 }
 @media(max-width: 430px){
+    .navbar-toggler_perso{
+        margin-right: 19px !important;
+    }
     .peliculas_main{
         display: block; 
         align-items: center; 
@@ -215,9 +236,18 @@
         position: relative;
         left: -665px !important;
     }
+    .ig, .X, .linkedin{
+        font-size: 15px !important;
+    }
+    .datos{
+        left: 23px !important;
+    }
 }
 @media(max-width: 320px){
     .d-blockw-100_perso{
         margin-left: 86px !important;
+    }
+    .datos{
+        left: 12px !important;
     }
 }
